@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Demo Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   bool isLoading = false;
-  String _gender = 'Laki-Laki';
+  String _gender = 'Perempuan';
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
